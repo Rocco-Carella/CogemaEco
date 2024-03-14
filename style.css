@@ -1,0 +1,240 @@
+body{
+  background-color: rgba(205, 206, 208, 0.359);
+}
+/* button nav */
+.button-3 {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .button-3:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .button-3:hover {
+    background-color: #2c974b;
+
+  }
+  
+  .button-3:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+  }
+  
+  .button-3:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+  }
+  
+  .button-3:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  }
+
+.a-logo{
+  background: linear-gradient(to right, rgba(25, 132, 194, 0.649), rgba(64, 161, 29, 0.474));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+  /* hover navabr */
+div a {
+  text-decoration: none;
+  font-size: 20px;
+  /* padding: 10px; */
+  display:inline-block;
+  color: rgb(247, 251, 248);
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 150px;
+  display: none;
+}
+ul li ul li { 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li a:hover { 
+  color: #32b441;
+}
+
+/* end nav */
+
+.container-header-custom{
+   margin-top: 75px;
+}
+.header-custom{
+    height: 430px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+
+}
+.image-slider{
+    width: 100%;
+    height: 80%;
+    background-size: 100% 100%;
+    animation: slider 13s linear infinite;
+    
+}
+@keyframes slider {
+    0%{
+        background-image: url(./img/img-slider1.jpg);
+    }
+    25%{
+        background-image: url(./img/img-slider2.jpg);
+        
+    }
+    50%{
+        background-image: url(./img/img-slider3.jpeg);
+
+    }
+    75%{
+        background-image: url(./img/img-slider1.jpg);
+
+    }
+    100%{
+        background-image: url(./img/img-slider1.jpg);
+
+    }
+}
+/* end header */
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600"); */
+
+:root {
+  --bar-scale-y: 0;
+  --sparkle-color: rgb(253 244 215 / 40%);
+}
+
+@keyframes pop-word {
+  to {
+    transform: rotateX(0);
+  }
+}
+
+@keyframes show {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bar-scale {
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes sparkle {
+  0% {
+    transform: scale(0);
+  }
+
+  60% {
+    transform: scale(1) translate(4px, 1px) rotate(8deg);
+  }
+
+  100% {
+    transform: scale(0) translate(4px, 1px) rotate(8deg);
+  }
+}
+
+@keyframes shimmer {
+  to {
+    text-shadow: 0 0 8px red;
+  }
+}
+
+h1 {
+  display: grid;
+  height: 100vh;
+
+  place-items: center;
+}
+
+h1 {
+  color: rgb(33, 136, 215);
+  font-family: "Playfair Display", Vidaloka, serif;
+  font-size: 8rem;
+
+  line-height: 0.85;
+  perspective: 500px;
+}
+
+.word {
+  display: block;
+
+  animation: show 0.01s forwards, pop-word 1.5s forwards;
+  animation-timing-function: cubic-bezier(0.14, 1.23, 0.33, 1.16);
+  opacity: 0;
+
+  transform: rotateX(120deg);
+  transform-origin: 50% 100%;
+}
+
+.word:nth-of-type(2) {
+  padding: 0 2rem;
+
+  animation-delay: 1.5s;
+
+  color: rgb(68, 171, 36);
+}
+
+
+
+/* bars */
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+/* end section1 */
+
+.second-section{
+margin-top: 93px;
+};
+/* end section2 */
+
+/* end section3 */
+
+/* header what */
+/* .header-what{
+  background-image: url('./img/header-what.jpg');
+  height: 350px;
+} */
+
+
