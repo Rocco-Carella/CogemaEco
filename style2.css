@@ -1,7 +1,7 @@
-body{
+/* body{
   background-color: rgba(205, 206, 208, 0.359);
   
-}
+} */
 /* button nav */
 
 .button-3 {
@@ -55,12 +55,19 @@ body{
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
   }
 
+  .a-logo{
+    background: linear-gradient(to right, rgba(25, 132, 194, 0.649), rgba(64, 161, 29, 0.474));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+  }
+
   /* hover navabr */
 div a {
   text-decoration: none;
   color: white;
   font-size: 20px;
-  padding: 15px;
   display:inline-block;
 }
 ul {
@@ -79,7 +86,9 @@ ul li ul li {
   display: block; 
 }
 ul li ul li a {display:block !important;} 
-ul li ul li:hover {background: #42b063;}
+ul li ul li a:hover { 
+  color: #32b441;
+}
 
 /* end nav */
 .header-what{
