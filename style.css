@@ -2,6 +2,18 @@
   background-color: rgba(205, 206, 208, 0.359);
 } */
 /* button nav */
+h1, h2,h3, h4, h5, h6{
+  font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+}
+p{
+  font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+  font-style:italic; 
+}
+
 .button-3 {
     appearance: none;
     background-color: #2ea44f;
