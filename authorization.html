@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
           <img src="./img/logo-removebg-preview.png" alt="logo" width="35" height="35">
-          <a class="navbar-brand a-logo" href="./index.html"> Cogema Eco
+          <a class="navbar-brand a-logo" href="./home.html"> Cogema Eco
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -22,16 +22,11 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item px-5">
-              <a class="nav-link " aria-current="page" href="#">Chi siamo</a>
-              <ul>
-                  <li><a href="./story.html">La nostra storia</a></li>
-                  <li><a href="./team.html">Il Team</a></li>
-                  <li><a href="./company.html">Cogema Eco</a></li>
-              </ul>
+              <a class="nav-link " aria-current="page" href="./ourstory.html">L'azienda</a>
             </li>
             <li class="nav-item px-5">
               <a class="nav-link" href="#">Servizi</a>
-              <ul >
+              <ul class="fw-bold">
                   <li><a href="./what.html">Cosa ricicliamo</a></li>
                   <li><a href="./rent.html">Noleggio casse</a></li>
                   <li><a href="./ritiro.html">Ritiro</a></li>
@@ -39,10 +34,13 @@
             </li>
             <li class="nav-item px-5">
               <a class="nav-link" href="#">Documenti</a>
-              <ul>
-                  <li><a href="./certification.html">Certificazioni</a></li>
+              <ul class="fw-bold">
                   <li><a href="./authorization.html">Autorizzazioni</a></li>
+                  <li><a href="./codici.html">Codici CER</a></li>
               </ul>
+            </li>
+            <li class="nav-itemst px-5 ">
+             <a href="./edilizia.html" class="nav-link">Edilizia</a>
             </li>
           </ul>
 <button class="button-3 " role="button" ><a href="./contacts.html" class="p-0 text-white">Contatti</a></button>
@@ -61,74 +59,37 @@
       <!-- end header -->
 
       <main>
-       <!-- <section class="container-fluid">
-        <div class="row">
-          <h4>Autorizzazione impianto</h4>
-          <div class="col-12">
-            <span>Aua </span><button  class="button-3" role="button"><a href="./ AUA.pdf" download="brochure.pdf" class="btn p-0 ">Aua</a></button>
-            <span>Aua </span><button  class="button-3" role="button"><a href="./ AUA.pdf" download="brochure.pdf" class="btn p-0 ">Aua</a></button>
-            <span>Aua </span><button  class="button-3" role="button"><a href="./ AUA.pdf" download="brochure.pdf" class="btn p-0 ">Aua</a></button>
-             <button  class="button-3" role="button"><a href="./ AUA.pdf" download="brochure.pdf" class="btn p-0 ">Aua</a></button>
-            <button  class="button-3" role="button"><a href="./AUT 2BIS.pdf" download="brochure.pdf" class="btn p-0 ">Aut 2BIS</a></button>
-            <button  class="button-3" role="button"><a href="./AUTORIZZAZIONE 4F.pdf" download="brochure.pdf" class="btn p-0 ">Autorizzazione 4F</a></button>
-            
-
+      <section class="container text-center">
+       <h4 class="p-3">Autorizzazioni Impianto</h4>
+        <div class="row border-bottom border-top p-1">
+          <div class="col-6">
+            <p class="fw-bold">AUA</p>
+          </div>
+          <div class="col-6">
+            <button  class="button-3" role="button"><a href="./AUA.pdf" download="AUA.pdf" class="btn p-0 "><i class="fa-solid fa-arrow-down fa-xl" style="color: #ffffff;"></i></a></button>
           </div>
         </div>
-
-       </section> -->
-       <section class="">
-
-       <h4 class="p-5">Autorizzazioni impianto</h4>
-       <table class="table">
-        <thead>
-          <tr>
-            <!-- <th scope="col">#</th> -->
-            <!-- <th scope="col">First</th> -->
-            <th scope="col"></th>
-            <th scope="col">Scarica</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="">
-            <!-- <th scope="row">1</th> -->
-            <!-- <td>Mark</td> -->
-            <td class="fw-bold ">AUA</td>
-            <td><button  class="button-3" role="button"><a href="./AUA.pdf" download="AUA.pdf" class="btn p-0 "><i class="fa-solid fa-arrow-down fa-xl" style="color: #ffffff;"></i></a></button></td>
-          </tr>
-          
-        </tbody>
-      </table>
-
-
-      <h4 class="p-5">Autorizzazioni trasporto</h4>
-      <table class="table">
-       <thead>
-         <tr>
-           <!-- <th scope="col">#</th> -->
-           <!-- <th scope="col">First</th> -->
-           <th scope="col"></th>
-           <th scope="col">Scarica</th>
-         </tr>
-       </thead>
-       <tbody>
-         <tr>
-           <!-- <th scope="row">2</th> -->
-           <!-- <td>Jacob</td> -->
-           <td class="fw-bold">Autorizzazione 2BIS</td>
-           <td><button  class="button-3" role="button"><a href="./AUT 2BIS.pdf" download="AUT 2BIS.pdf" class="btn p-0 "><i class="fa-solid fa-arrow-down fa-xl" style="color: #ffffff;"></i></a></button></td>
-         </tr>
-         <tr>
-           <!-- <th scope="row">3</th> -->
-           <!-- <td colspan="2">Larry the Bird</td> -->
-           <!-- <td>@twitter</td> -->
-           <td class="fw-bold">Autorizzazione 4F</td>
-           <td><button  class="button-3" role="button"><a href="./AUTORIZZAZIONE 4F.pdf" download="AUTORIZZAZIONE 4F.pdf" class="btn p-0 "><i class="fa-solid fa-arrow-down fa-xl" style="color: #ffffff;"></i></a></button></td>
-         </tr>
-       </tbody>
-     </table>
-      
-    </section>
+      </section>
+      <!-- 2-section -->
+      <section class="container text-center">
+        <h4 class="p-3">Autorizzazioni Trasporto</h4>
+         <div class="row border-bottom border-top p-1">
+           <div class="col-6">
+             <p class="fw-bold">Autorizzazione 4F</p>
+           </div>
+           <div class="col-6">
+             <button  class="button-3" role="button"><a href="./AUTORIZZAZIONE 4F.pdf" download="AUTORIZZAZIONE 4F.pdf" class="btn p-0 "><i class="fa-solid fa-arrow-down fa-xl" style="color: #ffffff;"></i></a></button>
+           </div>
+         </div>
+         <div class="row border-bottom  p-1">
+          <div class="col-6">
+            <p class="fw-bold">Autorizzazione 2BIS</p>
+          </div>
+          <div class="col-6">
+            <button  class="button-3" role="button"><a href="./AUT 2BIS.pdf" download="AUT 2BIS.pdf" class="btn p-0 "><i class="fa-solid fa-arrow-down fa-xl" style="color: #ffffff;"></i></a></button>
+          </div>
+        </div>
+       </section>
       </main>
 
       <!-- end main -->

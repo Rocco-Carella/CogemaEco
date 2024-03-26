@@ -127,11 +127,11 @@ ul li ul li a:hover {
         background-image: url(./img/img-slider1.jpg);
     }
     25%{
-        background-image: url(./img/img-slider2.jpg);
+        background-image: url(./img/header-what.jpg);
         
     }
     50%{
-        background-image: url(./img/img-slider3.jpeg);
+        background-image: url(./img/nolo1.jpeg);
 
     }
     75%{
@@ -144,7 +144,6 @@ ul li ul li a:hover {
     }
 }
 /* end header */
-/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600"); */
 
 :root {
   --bar-scale-y: 0;
