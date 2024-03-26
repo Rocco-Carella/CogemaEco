@@ -312,3 +312,17 @@ section .section-title {
   height: 70px;
   width: 70px;
 }
+
+/* #carousel {
+  height: 400px;
+} */
+.carousel-item{
+  height: 400px;
+  padding: 30px;
+  
+}
+
+
+
+
+
