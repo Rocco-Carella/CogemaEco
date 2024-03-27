@@ -102,16 +102,11 @@ ul li ul li a:hover {
 }
 
 /* end nav */
-.header-what{
-    background-image: url('./img/header-what.jpg');
-    background-size: cover;
-    height: 350px;
-    width: 100%;
-  }
+
   
 
   /* main */
-  @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+  /* @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); */
 #team {
     background: #ffffff !important;
 }
@@ -243,28 +238,16 @@ section .section-title {
     border-radius: 50%;
 }
 
-/* header team */
-.header-team{
-  background-image: url('./img-header/team.jpeg');
-  background-size: cover;
-  height: 350px;
-  width: 100%;
-}
-/* header comapny */
-.header-company{
-  background-image: url('./img-header/img-company.png');
-  background-size: cover;
-  height: 350px;
-  width: 100%;
-}
-/* header story */
+
+
+/* header ourstory */
 .header-story{
-  background-image: url('https://bootstrapious.com/i/snippets/sn-static-header/background.jpg');
+  background:linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./img/header-fisso.jpg');
   background-size: cover;
-  height: 350px;
+  background-position: center;
+  height: 390px;
   width: 100%;
-  /* background-position: center; */
-} 
+}
 .bg-cover {
   background-size: cover !important;
 }
@@ -273,10 +256,7 @@ section .section-title {
   border-bottom: 2px solid rgb(44, 98, 206);
 }
 
-/* section team */
-.conatiner-img{
- border-radius: 50%;
-}
+
 
 /* CSS  bottone form manda un messaggio*/
 .button-88 {
@@ -307,18 +287,17 @@ section .section-title {
   box-shadow: 0 0.3em 1em -0.5em #14a73e98;
 }
 
-.img-team{
-  border-radius: 50%;
-  height: 70px;
-  width: 70px;
-}
 
-/* #carousel {
+
+/* .carousel-item{
   height: 400px;
+  /* padding: 30px; 
 } */
-.carousel-item{
+
+.carousel-item img{
   height: 400px;
-  padding: 30px;
+  width: 100%;
+  object-fit:contain;
   
 }
 
