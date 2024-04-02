@@ -3,17 +3,23 @@
   
 } */
 /* button nav */
-/* span{
+span{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  font-style: normal;  */
+}
+h1, h2,h3, h4, h5, h6{
   font-family: "Montserrat", sans-serif;
   /* font-optical-sizing: auto;
   font-weight: <weight>;
-  font-style: normal; 
+  font-style: normal; */
 }
 p{
   font-family: "Montserrat", sans-serif;
    font-optical-sizing: auto;
   font-style:italic; 
-} */
+} 
 
 .button-3 {
     appearance: none;
@@ -244,8 +250,8 @@ section .section-title {
 .header-story{
   background:linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./img/header-fisso.jpg');
   background-size: cover;
-  background-position: center;
-  height: 390px;
+  /* background-position: center; */
+  height: 400px;
   width: 100%;
 }
 .bg-cover {

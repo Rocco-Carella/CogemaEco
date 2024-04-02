@@ -27,16 +27,16 @@
             <li class="nav-item px-5">
               <a class="nav-link" href="#">Servizi</a>
               <ul class="fw-bold">
-                  <li><a href="./what.html">Cosa ricicliamo</a></li>
-                  <li><a href="./rent.html">Noleggio casse</a></li>
-                  <li><a href="./ritiro.html">Ritiro</a></li>
+                  <li><a href="./what.html" class="text-secondary">Cosa ricicliamo</a></li>
+                  <li><a href="./rent.html"class="text-secondary">Noleggio casse</a></li>
+                  <li><a href="./ritiro.html"class="text-secondary">Ritiro</a></li>
               </ul>
             </li>
             <li class="nav-item px-5">
               <a class="nav-link" href="#">Documenti</a>
               <ul class="fw-bold">
-                  <li><a href="./authorization.html">Autorizzazioni</a></li>
-                  <li><a href="./codici.html">Codici CER</a></li>
+                  <li><a href="./authorization.html"class="text-secondary">Autorizzazioni</a></li>
+                  <li><a href="./codici.html"class="text-secondary">Codici CER</a></li>
               </ul>
             </li>
             <li class="nav-itemst px-5 ">
@@ -81,46 +81,57 @@
                   </div>
               </div>
           </div>
-      </div>
+        </div>
   
 
   
   
   
   
-      <div class="container mt-5">
+        <div class="container mt-5">
           <div class="row text-center">
               <div class="col">
                   <h6>Altre informazioni:</h6>
                   <p>Avete domande o dubbi sui nostri prodotti o servizi? Inviateci subito una e-mail! Il nostro team risponderà a tutte le vostre domande!</p>
-          </div>
-      </div>
+                </div>
+            </div>
+        </div>
+
+              
   
   
-      <div class="container mt-5">
-          <div class="row text-center">
-              <div class="col">
-                  <h6>Modulo contatti</h6>
-                  <p>Invia un'email. Tutti i campi contrassegnati da asterisco (*) sono obbligatori.</p>
-              </div>
-              <div class="row d-flex justify-content-center mt-5">
-                  <div class="col-3">
-                      <form class="form-contactUs">
-                          <div class="mb-3">
-                            <label for="exampleInputName" class="form-label">Nome*</label>
-                              <input type="name" class="form-control border-dark" id="exampleInputName">
+          <div class="container mt-5">
+            <div class="row text-center">
+                  <div class="col">
+                        <h6>Modulo contatti</h6>
+                        <p>Invia un'email. Tutti i campi contrassegnati da asterisco (*) sono obbligatori.</p>
+                    </div>
+                <div class="row justify-content-around align-items-center mt-5">
+                      <div class="col-3">
+                          <form id="contactForm">
+                              <div class="mb-3">
+                                <label for="name" class="form-label">Nome*</label>
+                                  <input type="name" class="form-control border-dark" id="name" required>
+                                </div>
+                              <div class="mb-3">
+                                <label for="email" class="form-label">Indirizzo Email*</label>
+                                <input type="email" class="form-control border-dark" id="email" aria-describedby="emailHelp" required>
+                              </div>
+                            </form>
+                      </div>
+                      <div class="col-3 ">
+                          <div class="form-floating">
+                              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" required></textarea>
+                              <label for="message">Messaggio:</label>
                             </div>
-                          <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Indirizzo Email*</label>
-                            <input type="email" class="form-control border-dark" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          </div>
-                        </form>
-                  </div>
-                  <div class="col-6 ">
-                      <div class="form-floating">
-                          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                          <label for="floatingTextarea2">Messaggio:</label>
-  <button class="button-88 mt-3" role="button">Invia</button>
+                      </div>
+                      <div class="col-3">
+                        <button class="button-88 mt-3" type="submit" role="button">Invia</button>
+                      </div>
+                </div>
+            </div>
+          </div>
+
       </header>
       <!-- end header -->
 
@@ -137,7 +148,7 @@
                   <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
                     <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"><img src="./img/logo-removebg-preview.png" alt=""  width="30" height="30"></use></svg>
                   </a>
-                  <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Cogema Eco srl</span>
+                  <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Cogema Eco srls</span>
                 </div>
                 <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                   <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/cogemaeco"><svg class="bi" width="24" height="24"><i class="fa-brands fa-facebook fa-l" style="color: #0056d6;"></i></svg></a></li>
