@@ -121,7 +121,7 @@ ul li ul li a:hover {
    margin-top: 75px;
 }
 .header-custom{
-    height: 450px;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -158,10 +158,10 @@ ul li ul li a:hover {
 }
 /* end header */
 
-:root {
+/* :root {
   --bar-scale-y: 0;
   --sparkle-color: rgb(253 244 215 / 40%);
-}
+} */
 
 @keyframes pop-word {
   to {
@@ -195,16 +195,12 @@ ul li ul li a:hover {
   }
 }
 
-@keyframes shimmer {
-  to {
-    text-shadow: 0 0 8px red;
-  }
-}
+
+
 
 h1 {
   display: grid;
-  height: 100vh;
-
+  height: 100%;
   place-items: center;
 }
 
