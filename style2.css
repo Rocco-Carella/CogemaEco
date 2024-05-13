@@ -249,10 +249,9 @@ section .section-title {
 /* header ourstory */
 .header-story{
   background:linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./img/header-fisso.jpg');
-  background-size: cover;
-  /* background-position: center; */
-  height: 400px;
-  width: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+ 
 }
 .bg-cover {
   background-size: cover !important;
