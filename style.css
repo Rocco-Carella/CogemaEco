@@ -154,22 +154,22 @@ ul li ul li a:hover {
 }
 @keyframes slider {
     0%{
-        background-image: url(./img/img-slider1.jpg);
+        background-image: url(./img-slider1.jpg);
     }
     25%{
-        background-image: url(./img/header-what.jpg);
+        background-image: url(./header-what.jpg);
         
     }
     50%{
-        background-image: url(./img/nolo1.jpeg);
+        background-image: url(./nolo1.jpeg);
 
     }
     75%{
-        background-image: url(./img/img-slider1.jpg);
+        background-image: url(./img-slider1.jpg);
 
     }
     100%{
-        background-image: url(./img/img-slider1.jpg);
+        background-image: url(./img-slider1.jpg);
 
     }
 }
